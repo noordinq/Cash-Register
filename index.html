@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cash Register</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Cash Register Project</h1>
+        <div id="inputDiv">
+            <div id="result"></div>
+            <label id="label" for="cash">Enter cash from customer:</label>
+            <input id="cashInput" type="number">
+            <button id="purchase-btn"> Purchase </button>
+        </div>
+        
+        <div id="register">
+            <div id="totalPrice"><p>Total: $3.26</p></div>
+            <div id="bridge"></div>
+            <div id="mainRegister">
+                <div id="boxesDiv">
+                    <div class="rowDiv">
+                        <div class="smallBox"></div>
+                        <div class="smallBox"></div>
+                        <div class="smallBox"></div>
+                    </div>
+                    <div class="rowDiv">
+                        <div class="smallBox"></div>
+                        <div class="smallBox"></div>
+                        <div class="smallBox"></div>
+                    </div>
+                    <div class="rowDiv">
+                        <div class="smallBox"></div>
+                        <div class="smallBox"></div>
+                        <div class="smallBox"></div>
+                    </div>
+                </div>
+                
+                <div id="change">
+                    <h4>Change in drawer:</h4>
+                    <li>Pennies: $1.01</li>
+                    <li>Nickels: $2.05</li>
+                    <li>Dimes: $3.1</li>
+                    <li>Quarters: $4.25</li>
+                    <li>Ones: $90</li>
+                    <li>Fives: $55</li>
+                    <li>Tens: $20</li>
+                    <li>Twenties: $60</li>
+                    <li>Hundreds: $100</li>
+                </div>
+            </div>
+            <div id="design">
+                <div id="opener"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
